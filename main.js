@@ -20,9 +20,9 @@ const navMenu = document.querySelector('.hamburger-menu');
 const closeIcon = document.querySelector('.close');
 
 openIcon.onclick = function (){
-  navMenu.style.display = 'block';
+  navMenu.classList.add('active');
 };
 
 closeIcon.onclick = function (){
-  navMenu.style.display = 'none';
+  navMenu.classList.remove('active');
 };
